@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar_main"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <GridView
+            android:id="@+id/image_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:smoothScrollbar="true"
+            android:numColumns="1"
+            android:columnWidth="200dp"
+            android:gravity="center"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="2dp">
+            </GridView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
