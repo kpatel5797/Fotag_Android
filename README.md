@@ -20,6 +20,6 @@ selected filter, along with all the images and their ratings.
 The images are being downloaded from the link every time a change is made in the application. So it might take a little time
 to download and show the images depending on the internet speed.
 
-To build the app on the command line, please run 'gradle.build' command. You might have to change the SDK location in
+To build the app on the command line, please run 'gradle build' command. You might have to change the SDK location in
 local.properties files present in the root folder. You can also simply download the APK from the root folder and run the
 application. 
